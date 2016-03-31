@@ -1,0 +1,38 @@
+# Site settings
+title: zyt's blog
+SEOTitle: 扬涛的博客 | zyt's blog
+header-img: img/home-bg.jpg
+email: xmzyt1996@gmail.com
+description: "CS student | ACMer | 宅 | Android 入门ing"
+keyword: "郑扬涛, zyt, orzyt, yootao, @xmzyt1996, 扬涛的博客, zyt blog, 博客, 个人网站, 计科"
+#url: ""              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
