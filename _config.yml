@@ -1,10 +1,10 @@
 # Site settings
-title: zyt's blog
-SEOTitle: 扬涛的博客 | zyt's blog
+title: Vonlion
+SEOTitle: vonlion's blog
 header-img: img/home-bg.jpg
-email: xmzyt1996@gmail.com
-description: "CS student | ACMer | 宅 | Android 入门ing"
-keyword: "郑扬涛, zyt, orzyt, yootao, @xmzyt1996, 扬涛的博客, zyt blog, 博客, 个人网站, 计科"
+email: vonlion.f@gmail.com
+description: "CS student | steam | design | Android"
+keyword: "冯立昊, flh,vonlion, vonlion的博客, vonlion blog, 博客, 个人网站, 计科"
 #url: ""              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -12,10 +12,10 @@ baseurl: ""                             # for example, '/blog' if your blog host
 
 # SNS settings
 RSS: false
-weibo_username: orzyt
-zhihu_username: orzyt
-github_username: yootao
-facebook_username: orzyt
+weibo_username: lihaoli
+#zhihu_username: orzyt
+#github_username: yootao
+#facebook_username: orzyt
 
 
 
@@ -49,7 +49,7 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: yootao
+duoshuo_username: vonlion
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
@@ -81,7 +81,7 @@ featured-condition-size: 0              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "FZU_zyt的博客",
-        href: "http://blog.csdn.net/xmzyt1996"
+        title: "vonlion's blog",
+        href: "http://www.vonlion.cn/sl"
     }
 ]
