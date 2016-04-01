@@ -1,4 +1,15 @@
-﻿# 我的编程之路    
+﻿---
+layout: post
+title: 编程之路
+subtitle:
+description:
+author: Vonlion
+header-img:
+category: []
+tags: [share, look back]
+---
+
+# 我的编程之路
 
 *by vonlion*
 
