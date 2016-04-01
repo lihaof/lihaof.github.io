@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <ul class="list-inline text-center">
-                
+
                     {% if site.RSS %}
                     <li>
                         <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
@@ -25,8 +25,8 @@
                             </span>
                         </a>
                     </li>
-                    {% endif %}   
-                    
+                    {% endif %}
+
                     {% if site.facebook_username %}
                     <li>
                         <a target="_blank" href="https://www.facebook.com/{{ site.facebook_username }}">
@@ -36,8 +36,8 @@
                             </span>
                         </a>
                     </li>
-                    {% endif %}                 
-                                 
+                    {% endif %}
+
                     {% if site.twitter_username %}
                     <li>
                         <a href="https://twitter.com/{{ site.twitter_username }}">
@@ -59,8 +59,8 @@
                         </a>
                     </li>
                     {% endif %}
-                    
-                    
+
+
                     {% if site.weibo_username %}
                     <li>
                         <a target="_blank" href="http://weibo.com/{{ site.weibo_username }}">
@@ -89,24 +89,24 @@
 <script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="{{ "/js/von-blog.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/zyt-blog.min.js " | prepend: site.baseurl }}"></script>
 
 
 <!-- async load function -->
 <script>
-    function async(u, c) {
-      var d = document, t = 'script',
-          o = d.createElement(t),
-          s = d.getElementsByTagName(t)[0];
-      o.src = u;
-      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
-      s.parentNode.insertBefore(o, s);
-    }
+function async(u, c) {
+    var d = document, t = 'script',
+            o = d.createElement(t),
+            s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+    s.parentNode.insertBefore(o, s);
+}
 </script>
 
 <!-- Highlight.js -->
-<script src="http://cdn.bootcss.com/highlight.js/8.0/highlight.min.js"></script>  
-<script >hljs.initHighlightingOnLoad();</script>  
+<script src="http://cdn.bootcss.com/highlight.js/8.0/highlight.min.js"></script>
+<script >hljs.initHighlightingOnLoad();</script>
 
 
 <!--fastClick.js -->
@@ -116,6 +116,6 @@
         // if($nav) FastClick.attach($nav);
 
         // global FastClick!!
-        FastClick.attach(document.body);    
+        FastClick.attach(document.body);
     })
 </script>
