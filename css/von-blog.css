@@ -1,6 +1,6 @@
 /*!
- * zyt Blog v1.0.0 (http://zytpro.github.io)
- * Copyright 2016 zyt <zytpro@gmail.com>
+ * vonlionvonlion Blog v1.0.0 (http://lihaof.github.io)
+ * Copyright 2016 vonlion <vonlion.f@gmail.com>
  */
 
 @media (min-width: 1200px) {
@@ -54,7 +54,7 @@
   padding-left: 0px;
 }
 body {
-  /* zyt learn from
+  /* vonlion learn from
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
@@ -73,7 +73,7 @@ h3,
 h4,
 h5,
 h6 {
-  /* zyt learn from
+  /* vonlion learn from
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
@@ -253,9 +253,9 @@ pre code {
   }
   /**
 	 * Animation
-	 * zytBlog-Navbar using genuine Material Design Animation
+	 * vonlionBlog-Navbar using genuine Material Design Animation
 	 */
-  #zytblog_navbar {
+  #vonblog_navbar {
     /**
 		 * Sharable code and 'out' function
 		 */
@@ -270,11 +270,11 @@ pre code {
 		 *'In' Animation
 		 */
   }
-  #zytblog_navbar a {
+  #vonblog_navbar a {
     font-size: 13px;
     line-height: 28px;
   }
-  #zytblog_navbar .navbar-collapse {
+  #vonblog_navbar .navbar-collapse {
     height: 0px;
     transform: scaleY(0);
     transform-origin: top right;
@@ -283,25 +283,25 @@ pre code {
     -webkit-transform-origin: top right;
     -webkit-transition: -webkit-transform 400ms cubic-bezier(0.32, 1, 0.23, 1) 0ms;
   }
-  #zytblog_navbar li {
+  #vonblog_navbar li {
     opacity: 0;
     transition: opacity 100ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
     -webkit-transition: opacity 100ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
   }
-  #zytblog_navbar.in {
+  #vonblog_navbar.in {
     transform: scaleX(1);
     -webkit-transform: scaleX(1);
     opacity: 1;
     transition: all 250ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
     -webkit-transition: all 250ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
   }
-  #zytblog_navbar.in .navbar-collapse {
+  #vonblog_navbar.in .navbar-collapse {
     transform: scaleY(1);
     -webkit-transform: scaleY(1);
     transition: transform 500ms cubic-bezier(0.23, 1, 0.32, 1);
     -webkit-transition: -webkit-transform 500ms cubic-bezier(0.23, 1, 0.32, 1);
   }
-  #zytblog_navbar.in li {
+  #vonblog_navbar.in li {
     opacity: 1;
     transition: opacity 450ms cubic-bezier(0.23, 1, 0.32, 1) 205ms;
     -webkit-transition: opacity 450ms cubic-bezier(0.23, 1, 0.32, 1) 205ms;
@@ -315,7 +315,7 @@ pre code {
   left: 0;
   width: 100%;
   z-index: 3;
-  /* zyt learn from
+  /* vonlion learn from
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
@@ -426,7 +426,7 @@ pre code {
   background-size: cover;
   -o-background-size: cover;
   margin-bottom: 0px;
-  /* 0 on mobile, modify by zyt */
+  /* 0 on mobile, modify by vonlion */
 }
 @media only screen and (min-width: 768px) {
   .intro-header {
@@ -466,7 +466,7 @@ pre code {
 }
 .intro-header .site-heading .subheading,
 .intro-header .page-heading .subheading {
-  /* zyt learn from
+  /* vonlion learn from
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
@@ -494,7 +494,7 @@ pre code {
   display: block;
 }
 .intro-header .post-heading .subheading {
-  /* zyt learn from
+  /* vonlion learn from
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
@@ -675,7 +675,7 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
 .btn {
-  /* zyt learn from
+  /* vonlion learn from
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
@@ -704,7 +704,7 @@ form .row:first-child .floating-label-form-group {
 }
 .pager li > a,
 .pager li > span {
-  /* zyt learn from
+  /* vonlion learn from
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
@@ -764,7 +764,7 @@ img::-moz-selection {
   color: white;
   background: transparent;
 }
-/* zyt add tags support */
+/* vonlion add tags support */
 .tags {
   margin-bottom: -5px;
 }
@@ -853,7 +853,7 @@ img::-moz-selection {
 }
 .one-tag-list .tag-text {
   font-weight: 200;
-  /* zyt learn from
+  /* vonlion learn from
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
@@ -895,14 +895,14 @@ img::-moz-selection {
   }
 }
 /* Tags support End*/
-/* zyt make all img responsible in post-container */
+/* vonlion make all img responsible in post-container */
 .post-container img {
   display: block;
   max-width: 100%;
   height: auto;
   margin: 1.5em auto 1.6em auto;
 }
-/* zyt Optimize UserExperience */
+/* vonlion Optimize UserExperience */
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
   background-color: inherit;
@@ -910,7 +910,7 @@ img::-moz-selection {
 .navbar-default .navbar-toggle:active {
   background-color: rgba(255, 255, 255, 0.25);
 }
-/* zyt customize Style for navBar button */
+/* vonlion customize Style for navBar button */
 .navbar-default .navbar-toggle {
   border-color: transparent;
   padding: 19px 16px;
@@ -927,7 +927,7 @@ img::-moz-selection {
 .navbar-default .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 3px;
 }
-/* zyt customize Style for Duoshuo */
+/* vonlion customize Style for Duoshuo */
 .comment {
   margin-top: 20px;
 }
