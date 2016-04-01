@@ -1,10 +1,10 @@
 # Site settings
-title: zyt's blog
-SEOTitle: 扬涛的博客 | zyt's blog
+title: Vonlion's blog
+SEOTitle: vonlion的博客 | zyt's blog
 header-img: img/home-bg.jpg
-email: xmzyt1996@gmail.com
-description: "CS student | ACMer | 宅 | Android 入门ing"
-keyword: "郑扬涛, zyt, orzyt, yootao, @xmzyt1996, 扬涛的博客, zyt blog, 博客, 个人网站, 计科"
+email: vonlion.f@gmail.com
+description: "CS student | front-end | design"
+keyword: "lihaof, vonlion, flh, FENGLIHAO, vonlion blog, 博客, 个人网站, 计科"
 #url: ""              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -67,7 +67,7 @@ duoshuo_share: true                     # set to false if you want to use Commen
 
 # Sidebar settings
 sidebar: true                          # whether or not using Sidebar.
-sidebar-about-description: "CS student | ACMer | 宅 | Android 入门ing"
+sidebar-about-description: "CS student | front-end | design"
 sidebar-avatar: /img/avatar.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -81,7 +81,7 @@ featured-condition-size: 0              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "FZU_zyt的博客",
-        href: "http://blog.csdn.net/xmzyt1996"
+        title: "FZU_flh的博客",
+        href: "http://www.vonlion.cn"
     }
 ]

@@ -1,27 +1,3 @@
-/*!
- * Clean Blog v1.0.0 (http://startbootstrap.com)
- * Copyright 2015 Start Bootstrap
- * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
- */
-
-// Tooltip Init
-// Unuse by zyt since V1.6: Titles now display by default so there is no need for tooltip
-// $(function() {
-//     $("[data-toggle='tooltip']").tooltip();
-// });
-
-
-// make all images responsive
-/* 
- * Unuse by zyt
- * actually only Portfolio-Pages can't use it and only post-img need it.
- * so I modify the _layout/post and CSS to make post-img responsive!
- */
-// $(function() {
-// 	$("img").addClass("img-responsive");
-// });
-
-// responsive tables
 $(document).ready(function() {
 	$("table").wrap("<div class='table-responsive'></div>");
 	$("table").addClass("table");
