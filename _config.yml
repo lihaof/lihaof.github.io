@@ -1,6 +1,6 @@
 # Site settings
 title: Vonlion's blog
-SEOTitle: vonlion的博客 | zyt's blog
+SEOTitle: lihaof的博客
 header-img: img/home-bg.jpg
 email: vonlion.f@gmail.com
 description: "CS student | front-end | design"
@@ -81,7 +81,7 @@ featured-condition-size: 0              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "FZU_flh的博客",
+        title: "flh的网站",
         href: "http://www.vonlion.cn"
     }
 ]
