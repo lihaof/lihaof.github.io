@@ -12,10 +12,10 @@ baseurl: ""                             # for example, '/blog' if your blog host
 
 # SNS settings
 RSS: false
-weibo_username: orzyt
-zhihu_username: orzyt
-github_username: yootao
-facebook_username: orzyt
+weibo_username: lihaoil
+zhihu_username: vonlion
+github_username: lihaof
+facebook_username: NULL
 
 
 
@@ -82,6 +82,6 @@ featured-condition-size: 0              # A tag will be featured if the size of 
 friends: [
     {
         title: "flh的网站",
-        href: "http://www.vonlion.cn"
+        href: "http://www.vonlion.cn/sl"
     }
 ]
